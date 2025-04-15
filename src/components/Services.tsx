@@ -1,23 +1,23 @@
 
 import { useState, useEffect, useRef } from 'react';
-import { Cow, PiggyBank, Sheep, Scissors } from 'lucide-react';
+import { Beef, Utensils, Scissors, GanttChart } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const ServicesData = [
   {
     title: "Abate de Bovinos",
     description: "Abate humanizado e processamento de carne bovina seguindo os mais rigorosos padrões de qualidade e higiene.",
-    icon: Cow
+    icon: Beef
   },
   {
     title: "Abate de Suínos",
     description: "Processo completo desde a recepção até o processamento final, garantindo produtos suínos de excelência.",
-    icon: PiggyBank
+    icon: Utensils
   },
   {
     title: "Abate de Ovinos",
     description: "Abate e processamento de ovinos com técnicas especializadas para preservar o sabor e a qualidade da carne.",
-    icon: Sheep
+    icon: GanttChart
   },
   {
     title: "Abate de Caprinos",
