@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# Equipe Abate - Site Oficial
 
-## Project info
+## 📌 Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/81661d38-2770-4327-a49e-b9f111f295b6
+Este é o site oficial do **Matadouro Equipe Abate**, uma empresa com **mais de 5 anos de experiência** no ramo de abate e processamento de carnes em **Petrolina - PE**.
 
-## How can I edit this code?
+Nosso objetivo com este projeto é apresentar os serviços oferecidos, os valores da empresa e facilitar o contato com nossos clientes e parceiros através de uma plataforma moderna e eficiente.
 
-There are several ways of editing your application.
+--- https://equipe-abate-git-main-viniciuspereirajvs-projects.vercel.app/
 
-**Use Lovable**
+## 🛠️ Como editar e rodar este projeto localmente
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/81661d38-2770-4327-a49e-b9f111f295b6) and start prompting.
+Você pode editar e executar este projeto usando qualquer editor de código (como VS Code). Siga os passos abaixo:
 
-Changes made via Lovable will be committed automatically to this repo.
+### ✅ Pré-requisitos
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💻 Passo a passo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# 1. Clone o repositório
+git clone <SEU_GIT_URL>
 
-Follow these steps:
+# 2. Acesse a pasta do projeto
+cd <NOME_DO_PROJETO>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 3. Instale as dependências
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
+Acesse no navegador: http://localhost:5173
 
-**Edit a file directly in GitHub**
+🚀 Tecnologias utilizadas
+Vite
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+React
 
-**Use GitHub Codespaces**
+TypeScript
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Tailwind CSS
 
-## What technologies are used for this project?
+shadcn/ui
 
-This project is built with:
+🐄 Sobre a Equipe Abate
+Com mais de 5 anos de atuação em Petrolina-PE, a Equipe Abate é referência em abate e fornecimento de carnes com qualidade, higiene e responsabilidade.
+Nosso compromisso é com o cliente e com o respeito aos mais altos padrões sanitários e legais, garantindo segurança em todas as etapas do processo.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📞 Contato
+Para mais informações, orçamentos ou parcerias:
 
-## How can I deploy this project?
+📍 Localização: Petrolina - PE
 
-Simply open [Lovable](https://lovable.dev/projects/81661d38-2770-4327-a49e-b9f111f295b6) and click on Share -> Publish.
+📧 E-mail: contato@equipeabate.com.br
 
-## Can I connect a custom domain to my Lovable project?
+📱 Redes sociais: em breve no site oficial
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Equipe Abate © Todos os direitos reservados
