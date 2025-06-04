@@ -111,7 +111,7 @@ const Products = () => {
     <section id="produtos" className="section-padding bg-white" ref={sectionRef}>
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-agro-green mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#ff5537] mb-4">
             Nossos Produtos
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
@@ -151,7 +151,7 @@ const Products = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     {product.featured && (
-                      <Badge className="absolute top-2 right-2 bg-agro-green">Destaque</Badge>
+                      <Badge className="absolute top-2 right-2 bg-[#D52B1E] hover:bg-[#d51e1e]">Destaque</Badge>
                     )}
                   </div>
                   <CardContent className="pt-4">
@@ -159,7 +159,7 @@ const Products = () => {
                     <p className="text-gray-600 text-sm mb-4">{product.description}</p>
                   </CardContent>
                   <CardFooter className="pt-0">
-                    <Button variant="outline" className="w-full border-agro-green text-agro-green hover:bg-agro-green hover:text-white">
+                    <Button variant="outline" className="w-full border-[#D52B1E] text-[#000000] hover:bg-[#d5551e] hover:text-white">
                       Mais Detalhes
                     </Button>
                   </CardFooter>

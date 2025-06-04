@@ -6,16 +6,16 @@ const Hero = () => {
   return (
     <section 
       id="início" 
-      className="relative h-screen flex items-center justify-center bg-agro-green"
+      className="relative h-screen flex items-center justify-center bg-white"
       style={{
-        backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(39,92,53,0.8)), url("https://images.unsplash.com/photo-1466721591366-2d5fba72006d?auto=format&fit=crop&q=80")',
+        backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(150,70,30,0.8)), url("https://images.unsplash.com/photo-1466721591366-2d5fba72006d?auto=format&fit=crop&q=80")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg animate-fade-in">
-          Best Agro Gado
+          Equipe Abate
         </h1>
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8 drop-shadow-md animate-fade-in">
           Qualidade e excelência no abate de suínos, bovinos, caprinos e ovinos
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-4 justify-center mt-8 animate-fade-in">
           <Button 
             size="lg" 
-            className="bg-white text-agro-green hover:bg-agro-beige"
+            className="bg-white text-[	#000000] hover:bg-agro-beige"
             onClick={() => document.getElementById('serviços')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Nossos Serviços
@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-4/2 transform -translate-x-1/2 animate-bounce">
         <a 
           href="#serviços" 
           className="flex flex-col items-center text-white"

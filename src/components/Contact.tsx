@@ -94,7 +94,7 @@ const Contact = () => {
     <section id="contato" className="section-padding bg-agro-beige/30" ref={sectionRef}>
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-agro-green mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#eb4643] mb-4">
             Entre em Contato
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
@@ -109,7 +109,7 @@ const Contact = () => {
             style={{ transition: 'all 0.7s ease-out' }}
           >
             <div className="bg-white rounded-lg shadow-md p-8">
-              <h3 className="text-xl font-semibold mb-6 text-agro-brown">Envie-nos uma mensagem</h3>
+              <h3 className="text-xl font-semibold mb-6 text-[#000000]">Envie-nos uma mensagem</h3>
               
               <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -170,7 +170,7 @@ const Contact = () => {
                   />
                 </div>
                 
-                <Button type="submit" className="w-full bg-agro-green hover:bg-agro-green/90">
+                <Button type="submit" className="w-full bg-[#eb4643] hover:bg-[#eb4643]/90">
                   Enviar Mensagem
                 </Button>
               </form>
@@ -182,13 +182,13 @@ const Contact = () => {
             style={{ transition: 'all 0.7s ease-out', transitionDelay: '200ms' }}
           >
             <div className="h-full">
-              <h3 className="text-xl font-semibold mb-6 text-agro-brown">Informações de Contato</h3>
+              <h3 className="text-xl font-semibold mb-6 text-[#000000]">Informações de Contato</h3>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                     <div className="bg-agro-green/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                      <info.icon className="h-6 w-6 text-agro-green" />
+                      <info.icon className="h-6 w-6 text-[#D52B1E]" />
                     </div>
                     <h4 className="font-medium text-lg mb-2">{info.title}</h4>
                     <div className="space-y-1">

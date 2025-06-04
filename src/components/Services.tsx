@@ -56,7 +56,7 @@ const Services = () => {
     <section id="serviços" className="section-padding bg-white" ref={sectionRef}>
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-agro-green mb-4">Nossos Serviços</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#ff5537] mb-4">Nossos Serviços</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             Oferecemos serviços especializados de abate para diferentes tipos de animais, 
             sempre priorizando a qualidade, higiene e respeito às normas sanitárias.
@@ -77,7 +77,7 @@ const Services = () => {
             >
               <CardHeader className="pb-2">
                 <div className="bg-agro-green/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
-                  <service.icon className="h-8 w-8 text-agro-green" />
+                  <service.icon className="h-8 w-8 text-[#ff5537]" />
                 </div>
                 <CardTitle>{service.title}</CardTitle>
               </CardHeader>

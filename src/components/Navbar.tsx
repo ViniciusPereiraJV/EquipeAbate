@@ -35,21 +35,21 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center">
-            <span className={`font-bold text-2xl ${isScrolled ? 'text-agro-green' : 'text-white'}`}>
-              Best Agro Gado
+            <span className={`font-bold text-2xl ${isScrolled ? 'text-[#D52B1E]' : 'text-white'}`}>
+              Equipe Abate
             </span>
           </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {['Início', 'Serviços', 'Sobre', 'Produtos', 'Contato'].map((item) => (
+            {['Início', 'Serviços', 'Sobre', 'Contato'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className={`font-medium transition-colors hover:text-agro-green ${
+                className={`font-medium transition-colors hover:text-black ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
-              >
+              > 
                 {item}
               </a>
             ))}
@@ -61,7 +61,7 @@ const Navbar = () => {
               variant="ghost"
               size="icon"
               onClick={toggleMenu}
-              className={`${isScrolled ? 'text-agro-green' : 'text-white'}`}
+              className={`${isScrolled ? 'text-[#D52B1E]' : 'text-white'}`}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>
