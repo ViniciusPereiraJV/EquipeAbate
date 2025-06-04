@@ -76,12 +76,12 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["contato@bestagrogado.com", "vendas@bestagrogado.com"]
+      details: ["contato@equipeabate.com", "vendas@equipeabate.com"]
     },
     {
       icon: MapPin,
       title: "Endereço",
-      details: ["Rua Exemplo, 123 - Bairro", "São Paulo - SP, 01234-567"]
+      details: ["Rua Exemplo, 123 - Bairro", "Petrolina - PE, 01234-567"]
     },
     {
       icon: Clock,
