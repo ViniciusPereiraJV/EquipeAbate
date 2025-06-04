@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12 px-4 md:px-0">
           <div>
-            <h3 className="text-lg font-bold mb-4">Best Agro Gado</h3>
+            <h3 className="text-lg font-bold mb-4">EquipeAbate</h3>
             <p className="text-white/80 mb-4">
               Excelência no abate e processamento de suínos, bovinos, caprinos e ovinos.
               Qualidade e compromisso em todos os nossos produtos.
@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-white/80 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">contato@bestagrogado.com</span>
+                <span className="text-white/80">contato@equipeabate.com</span>
               </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="border-t border-white/20 py-6 px-4 md:px-0">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/80 text-sm">
-              &copy; {currentYear} Best Agro Gado. Todos os direitos reservados.
+              &copy; {currentYear} EquipeAbate. Todos os direitos reservados.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">
