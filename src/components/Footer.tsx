@@ -33,7 +33,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              {['Início', 'Serviços', 'Sobre', 'Produtos', 'Contato'].map((item) => (
+              {['Início', 'Serviços', 'Sobre', 'Contato'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase()}`}
@@ -67,11 +67,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 text-white/80 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">+55 (11) 9999-8888</span>
+                <span className="text-white/80">+55 (87) 999395418</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-white/80 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">contato@equipeabate.com</span>
+                <span className="text-white/80">equipeabatepetrolina@gmail.com</span>
               </li>
             </ul>
           </div>

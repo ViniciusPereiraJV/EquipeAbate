@@ -1,6 +1,7 @@
 
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import cow from "/image/vaca.jpg"
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
       id="início" 
       className="relative h-screen flex items-center justify-center bg-white"
       style={{
-        backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(150,70,30,0.8)), url("https://images.unsplash.com/photo-1466721591366-2d5fba72006d?auto=format&fit=crop&q=80")',
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(150,70,30,0.8)), url(${cow})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
