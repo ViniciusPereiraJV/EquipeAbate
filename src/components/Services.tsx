@@ -15,24 +15,28 @@ const ServicesData = [
     description:
       "Abate humanizado e processamento de carne bovina seguindo os mais rigorosos padrões de qualidade e higiene.",
     icon: Beef,
+    url:"https://w.app/i9kd3s"
   },
   {
     title: "Abate de Suínos",
     description:
       "Processo completo desde a recepção até o processamento final, garantindo produtos suínos de excelência.",
     icon: Utensils,
+    url:"https://w.app/n76q4u"
   },
   {
     title: "Abate de Ovinos",
     description:
       "Abate e processamento de ovinos com técnicas especializadas para preservar o sabor e a qualidade da carne.",
     icon: GanttChart,
+    url:"https://w.app/tscx9g"
   },
   {
     title: "Abate de Caprinos",
     description:
       "Serviços completos para o processamento de caprinos, atendendo às necessidades específicas deste tipo de carne.",
     icon: Scissors,
+    url:"https://w.app/xyalfi"
   },
 ];
 
@@ -108,7 +112,7 @@ const Services = () => {
                 </CardDescription>
                 <Button asChild>
                   <a
-                    href="https://www.google.com"
+                    href={service.url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
