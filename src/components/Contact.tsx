@@ -51,7 +51,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // In a real application, you would send this data to your backend
+    
     console.log("Form submitted:", formData);
 
     toast({

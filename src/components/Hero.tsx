@@ -30,12 +30,13 @@ const Hero = () => {
             Nossos Serviços
           </Button>
           <Button 
+          asChild
             size="lg" 
             variant="outline"
             className="bg-transparent border-white text-white hover:bg-white/10"
-            onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+            // onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Fale Conosco <ArrowRight className="ml-2 h-4 w-4" />
+            <a href="https://w.app/equipeabate" target='blank'>Fale Conosco<ArrowRight className="ml-2 h-4 w-6" /></a>
           </Button>
         </div>
       </div>
