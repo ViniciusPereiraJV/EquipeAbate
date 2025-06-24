@@ -48,25 +48,52 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    
-    console.log("Form submitted:", formData);
+  try {
+    const response = await fetch("https://formspree.io/f/xzzgjror", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message,
+      }),
+    });
 
+    if (response.ok) {
+      toast({
+        title: "Mensagem enviada!",
+        description: "Agradecemos o seu contato. Responderemos em breve.",
+      });
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    } else {
+      toast({
+        title: "Erro ao enviar",
+        description: "Tente novamente mais tarde.",
+        variant: "destructive",
+      });
+    }
+  } catch (error) {
     toast({
-      title: "Mensagem enviada!",
-      description: "Agradecemos o seu contato. Responderemos em breve.",
+      title: "Erro de conexão",
+      description: "Verifique sua conexão com a internet.",
+      variant: "destructive",
     });
+  }
+};
 
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-  };
 
   const contactInfo = [
     {
@@ -123,7 +150,7 @@ const Contact = () => {
                 Envie-nos uma mensagem
               </h3>
 
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium">
